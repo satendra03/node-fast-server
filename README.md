@@ -1,62 +1,23 @@
-# Node Fast Server ⚡
+# Node Fast Server Templates
 
-A blazing fast way to scaffold a production-ready **Node.js** + **Express** server — in one command.
+This repository contains the base templates used by the [`create-node-fast-server`](https://www.npmjs.com/package/create-node-fast-server) CLI.
 
----
+Each folder inside this repo is a boilerplate for setting up a Node.js server with different configurations.
 
-## 🛠️ Usage
+## Folder Structure
+
+- `node-mongodb-js/`: Node.js + Express + MongoDB (JavaScript)
+- `node-mongodb-ts/`: Node.js + Express + MongoDB (TypeScript)
+
+## Usage
+
+You should **not use these folders directly**. Instead, use the CLI:
 
 ```bash
-npm init node-fast-server
+npm create node-fast-server
 ```
----
 
-## 🚀 What is this?
-
-This CLI tool that helps you quickly spin up a Node.js backend with common configurations already set up — so you can focus on writing features instead of boilerplate.
-
-## 📦 Features
-
-- ⚙️ Express.js server scaffold
-- 🧩 Modular folder structure
-- 🌐 CORS, dotenv, and middlewares pre-configured
-- 🗂️ Environment-based config support
-- 🔥 Fast development experience
-
----
-
-## 📂 Folder Structure
-```
-src
-    ├───config
-    ├───controllers
-    ├───middlewares
-    ├───models
-    ├───routes
-    ├───services
-    └───utils
-```
----
-
-Follow the prompts to choose your configuration and you're ready to go!
-
-## 💡 Ideal For
-
-- REST API projects
-- Backend for full-stack apps
-- Quick prototypes and MVPs
-
----
-
-## 🧪 What's Inside?
-
-- `express`
-- `dotenv`
-- `cors`
-- `nodemon` (for dev)
----
-
-### Ways to Contact Us:
+## Ways to Contact Us:
 
 1. **GitHub Issues**: You can open an issue directly on this repository for bugs, feature requests, or general inquiries.
    - [Open an Issue](https://github.com/satendra03/node-fast-server/issues)
